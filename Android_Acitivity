@@ -1,0 +1,43 @@
+=========
+activity
+=========
+      Activity is a one screen of android app
+        its a specific building block of user Interface
+        Activity class is predefined class in android
+        Every Application ui inherited to create window
+
+how activity work
+------------------
+      Android is a platform is combination of xml and java file
+      xml basically a container and contain design
+      java file how to handle design stuff
+      
+      class mainActivity extends Activity here AppcompactActibity use replace of Activity because of Deprecatted
+      
+      onCreateFunction => create link bet xml and javafile
+      
+ define activity into manifest
+ ------------------------------
+    <activity:name = ".mainActivity"> 
+      <intent:filter action >     intent take action for this activity its a default App launcher for first screen of Main APp
+      <category>          main launcher
+     </activity>
+     
+ Activity life cycle
+ -------------------
+ Activity is intially created to when its destroyed
+ Activity class no. of callbacks to knodw state has changed
+ 
+  oncreate, onstart, onResume, onpause, onDestroy, 
+  oncreate=> the first activity created (createviews, findbyid, binding data tolist, )
+  onstart =>  Acitivity  visible to user, App prepares  for the activity to enter the forground and become interactive
+  onResume => its a top of activity stack and visible to user [on receiving phone call, navigating another activity, device turning off]
+  onPause => activity is no longer in forground [e.g-> Activity B launched in front of Activity A this callback invoked in acitvity A ]
+  onStop => no longer visible to user
+  
+  take to background app => onpause and onstop called
+  open its agin onstart and onResume
+  go back = > on pause onstart on destroy
+  
+  
+  
