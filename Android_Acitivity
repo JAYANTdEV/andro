@@ -1,15 +1,20 @@
-=======
-Intent
-=======
-intent messaging object used to requset an aciton from other app component
-communicate bet different component
+======
+Layout
+======
 
-you can call one acitivity to another activity is called Indent
-intent is communication bet system and your application data
-start, services(web browser, email, ),Broadcast(suppose your mobile is low battery, communicate pass message between os and app by intent) using by intent
+Relative
+--------
+A view group display child view in relative positions.
+childview-> layoutcenteral horizontal:true, centeral in parent
 
-two types of intent=> 
---------------------
-Explicit => one activity to another acitivity you know the activity
-implit => one of android app , locating some person you cant show actual map then you can take google map to google application.
+morethan one child A and B
 
+constraint
+---------
+frameLayout
+----------
+co-ordinate
+----------
+co-ordinate layout
+absolute
+----------
