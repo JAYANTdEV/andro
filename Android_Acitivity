@@ -13,8 +13,17 @@ constraint
 ---------
 frameLayout
 ----------
+one frame outside another frame is called frame layout its mainly used for animation, moving  
+If you have used FrameLayout in your application, then you know that it is a very difficult task 
+to manage views one over the other in FrameLayout.Also, it is advised not to use more than one element in our FrameLayout. 
+
 co-ordinate
 ----------
+WhatsApp application. Now, open any chat and click on the name of the chat or go to the menu and then click “View Contact”.
+Here, you will find the profile picture of the user. Now try to scroll down the page. Hey, where is the profile image? Now scroll up.
+Yeah, you got the profile image? 
+Try to repeat the same scrolling up and down and see the animation. This is done with the help of Coordinator Layout. 
 co-ordinate layout
+
 absolute
 ----------
